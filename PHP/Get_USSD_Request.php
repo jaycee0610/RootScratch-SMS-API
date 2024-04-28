@@ -2,7 +2,6 @@
 
 include "function.php";
 
-
 try {
     // Get a USSD request using the ID.
     $ussdRequest = getUssdRequestByID(1);
