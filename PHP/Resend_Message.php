@@ -6,7 +6,7 @@ try {
     // Resend a message using the ID.
     $msg = resendMessageByID(1);
     print_r($msg);
-
+ 
     // Get messages using the Group ID and Status.
     $msgs = resendMessagesByGroupID('LV5LxqyBMEbQrl9*J$5bb4c03e8a07b7.62193871', 'Failed');
     print_r($msgs);
