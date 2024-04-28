@@ -1,5 +1,6 @@
 <?php
 
+// Server & API Key
 define("SERVER", "https://sms.rootscratch.com");
 define("API_KEY", "YOUR_API_KEY");
 
