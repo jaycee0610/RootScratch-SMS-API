@@ -1,7 +1,7 @@
 <?php 
 
 include_once "function.php";
-
+ 
 try {
     // Send a USSD request using default SIM of Device ID 1.
     $ussdRequest = sendUssdRequest("*150#", 1);
