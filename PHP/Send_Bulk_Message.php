@@ -1,7 +1,7 @@
 <?php
 
 include_once "function.php";
-
+ 
 $messages = array();
 
 for ($i = 1; $i <= 12; $i++) {
