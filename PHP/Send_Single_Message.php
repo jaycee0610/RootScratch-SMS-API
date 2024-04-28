@@ -1,7 +1,7 @@
 <?php
 
 include_once "function.php";
-
+ 
 try {
     // Send a message using the primary device.
     $msg = sendSingleMessage("+11234567890", "This is a test of single message.");
