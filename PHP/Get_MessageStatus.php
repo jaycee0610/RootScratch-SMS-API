@@ -1,7 +1,7 @@
 <?php
 
 include_once "function.php";
-
+ 
 try {
     // Get a message using the ID.
     $msg = getMessageByID(1);
