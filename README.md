@@ -2,7 +2,7 @@
 ![Logo](https://rootscratch.com/assets/images/meta.png)
 
 
-# Android SMS Gateway (API Samples)
+# Android SMS Gateway (PHP API Samples)
 
 Android SMS Gateway transforms your Android smartphone into an SMS gateway. It is a lightweight application that enables you to send SMS messages programmatically via an API, making it ideal for integrating SMS functionality into your applications or services.
 
