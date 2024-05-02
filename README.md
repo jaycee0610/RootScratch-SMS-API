@@ -1,5 +1,5 @@
 
-![Logo](https://rootscratch.com/assets/images/meta.png)
+![Logo](https://repository-images.githubusercontent.com/793146864/16693eae-1f8d-47f1-8a60-c22b8e92bf22)
 
 
 # Android SMS Gateway (PHP API Samples)
