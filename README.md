@@ -1,5 +1,5 @@
 
-![Logo](https://repository-images.githubusercontent.com/793146864/16693eae-1f8d-47f1-8a60-c22b8e92bf22)
+![Logo](https://repository-images.githubusercontent.com/793146864/6fb1ef96-255c-4946-bd88-3b26e7c17e3d)
 
 
 # Android SMS Gateway (PHP API Samples)
