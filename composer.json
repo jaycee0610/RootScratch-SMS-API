@@ -1,0 +1,19 @@
+{
+    "name": "rootscratch/sms",
+    "description": "Android SMS Gateway transforms your Android smartphone into an SMS gateway. It is a lightweight application that enables you to send SMS messages programmatically via an API, making it ideal for integrating SMS functionality into your applications or services.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rootscratch\\SMS\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Christian Natividad",
+            "email": "johnchristian.natividad10@gmail.com"
+        }
+    ]
+}
