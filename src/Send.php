@@ -55,4 +55,18 @@ class Send extends Configuration
     }
 
 
+    public function sendUssdRequest($request, $device, $simSlot = null)
+    {
+        $url = parent::SERVER . "/services/send-ussd-request.php";
+        $postData = [
+            'key' => parent::$API_KEY,
+            'request' => $request,
+            'device' => $device,
+            'sim' => $simSlot
+        ];
+        return $this->sendRequest($url, $postData);
+    }
+
+
+
 }
