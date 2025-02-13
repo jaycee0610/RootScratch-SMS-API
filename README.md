@@ -97,13 +97,13 @@ echo json_encode($send_bulk, JSON_PRETTY_PRINT);
 
 $send_bulk_mms = $sendMessage->sendMessages([
     [
-        "number" => "639637057969",
+        "number" => "639123456789",
         "message" => "Test 1",
         "type" => "mms",
         "attachments" => 'https://sample.com/1.png'
     ],
     [
-        "number" => "639637057969",
+        "number" => "639123456789",
         "message" => "Test 2",
         "type" => "mms",
         "attachments" => 'https://sample.com/1.png'
