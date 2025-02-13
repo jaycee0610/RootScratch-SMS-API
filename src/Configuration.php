@@ -109,21 +109,6 @@ class Configuration
     }
 
 
-    public function getMessagesByMessage($message, $status = null, $deviceID = null, $simSlot = null, $startTimestamp = null, $endTimestamp = null)
-    {
-        $url = self::SERVER . "/services/read-messages.php";
-        $postData = [
-            'key' => self::$API_KEY,
-            'message' => $message,
-            'status' => $status ?? "All",
-            'deviceID' => $deviceID,
-            'simSlot' => $simSlot,
-            'startTimestamp' => $startTimestamp,
-            'endTimestamp' => $endTimestamp
-        ];
-        return $this->sendRequest($url, $postData);
-    }
-
 
     public function addContact($listID, $number, $name = null, $resubscribe = false)
     {
