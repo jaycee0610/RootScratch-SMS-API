@@ -5,7 +5,7 @@
 
 Android SMS Gateway transforms your Android smartphone into an SMS gateway. It is a lightweight application that enables you to send SMS messages programmatically via an API, making it ideal for integrating SMS functionality into your applications or services.
 
-- [https://packagist.org/packages/rootscratch/psgc](https://packagist.org/packages/rootscratch/psgc)
+- [https://packagist.org/packages/rootscratch/sms](https://packagist.org/packages/rootscratch/sms)
 - [https://sms.rootscratch.com/](https://sms.rootscratch.com/)
 
 ## 🚀 Installation

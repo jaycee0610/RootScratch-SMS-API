@@ -31,7 +31,7 @@ class Configuration
         $postData = [
             'key' => self::$API_KEY
         ];
-        return  $this->sendRequest($url, $postData)["devices"];
+        return  $this->sendRequest($url, $postData);
     }
 
 
@@ -41,7 +41,7 @@ class Configuration
         $postData = [
             'key' => self::$API_KEY
         ];
-        $credits = $this->sendRequest($url, $postData)["credits"];
+        $credits = $this->sendRequest($url, $postData);
         return $credits === null ? ['credits' => "Unlimited"] : ['credits' => $credits];
     }
 
